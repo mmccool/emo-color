@@ -1,6 +1,8 @@
 # Offline demo: train a tiny Word2Vec on the fly (no downloads)
 # self-contained example that trains a small Word2Vec on synthetic sentences just to show the API.
 # Results won’t be great (tiny corpus), but every function will run.
+# * Shows training your own Word2Vec vectors and passing embeddings=...
+# * Uses model_type="kernel_rbf" for a smoother fit with sparse seeds.
 
 # Requires: gensim, scikit-learn, matplotlib
 
