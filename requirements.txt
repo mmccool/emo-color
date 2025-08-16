@@ -13,3 +13,17 @@ webcolors>=1.12
 
 # Optional: Jupyter (for notebooks / interactive work)
 jupyter
+
+# gensim is needed if you want to load pretrained embeddings (e.g. glove-wiki-gigaword-300) or train your own Word2Vec.
+# scikit-learn provides PCA, Ridge, Kernel Ridge, NearestNeighbors.
+# matplotlib is for the 3D scatter visualization.
+# webcolors lets you translate RGBs into CSS3 color names; if missing, the code falls back to a built-in dictionary.
+# jupyter is optional but useful if you want to explore interactively.
+
+# Safe versions:
+# numpy==1.26.4
+# scikit-learn==1.5.1
+# gensim==4.3.2
+# matplotlib==3.9.2
+# webcolors==1.13
+
