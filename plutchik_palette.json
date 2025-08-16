@@ -1,0 +1,33 @@
+{
+  "joy":        { "hex": "#FFFF00" },
+  "serenity":   { "hex": "#FFFF00" },
+  "ecstasy":    { "hex": "#FFFF00" },
+
+  "trust":      { "hex": "#00FF00" },
+  "acceptance": { "hex": "#00FF00" },
+  "admiration": { "hex": "#00FF00" },
+
+  "fear":        { "hex": "#00FFFF" },
+  "apprehension":{ "hex": "#00FFFF" },
+  "terror":      { "hex": "#00FFFF" },
+
+  "surprise":    { "hex": "#0000FF" },
+  "distraction": { "hex": "#0000FF" },
+  "amazement":   { "hex": "#0000FF" },
+
+  "sadness":     { "hex": "#800080" },
+  "pensiveness": { "hex": "#800080" },
+  "grief":       { "hex": "#800080" },
+
+  "disgust":     { "hex": "#008000" },
+  "boredom":     { "hex": "#008000" },
+  "loathing":    { "hex": "#008000" },
+
+  "anger":       { "hex": "#FF0000" },
+  "annoyance":   { "hex": "#FF0000" },
+  "rage":        { "hex": "#FF0000" },
+
+  "anticipation":{ "hex": "#FFA500" },
+  "interest":    { "hex": "#FFA500" },
+  "vigilance":   { "hex": "#FFA500" }
+}
