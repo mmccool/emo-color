@@ -1,3 +1,4 @@
+# Export a palette (JSON) of predicted colors
 import json
 preds = mapper.predict_all()
 export = {
