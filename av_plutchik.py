@@ -1,3 +1,12 @@
+# Create mapping using Plutchik's model.
+# Uses
+# Relative positions of all 24 emotions, consistent with embeddings.
+# Colors smoothly interpolated from Plutchik’s seeds via regression.
+# Ability to:
+# * Map emotion to color (RGB, HSL, nearest CSS name)
+# * Map color to closest emotions
+# * Visualize in 3D PCA space.
+
 from emotion_color_mapper import EmotionColorMapper
 import matplotlib.pyplot as plt
 
