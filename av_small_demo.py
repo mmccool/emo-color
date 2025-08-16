@@ -1,4 +1,7 @@
-# offline_demo_small_w2v.py
+# Offline demo: train a tiny Word2Vec on the fly (no downloads)
+# self-contained example that trains a small Word2Vec on synthetic sentences just to show the API.
+# Results won’t be great (tiny corpus), but every function will run.
+
 # Requires: gensim, scikit-learn, matplotlib
 
 from gensim.models import Word2Vec
