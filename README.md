@@ -52,3 +52,10 @@ Customize it:
 
 ## OOV handling:
   Words missing from embeddings are skipped. Set oov_policy="avg_subtokens" to average subword tokens split on hyphens/underscores.
+
+# Gotchas
+* If gensim isn’t installed or you’re offline, use the `av_small_demo.py` to create a tiny test embedding.
+* Color naming uses CSS3 via webcolors if present, otherwise a small built-in CSS3 fallback list.
+  For richer names (~950), swap in the XKCD color list and use the same ΔE2000 nearest-name logic.
+* Predictions are built in CIELAB, then converted to sRGB with gamut clipping. Distances (emotion to color) use ΔE2000.
+* Regularization: raise alpha for smoother, less wiggly fits; try kernel_rbf when seeds are sparse or the mapping is clearly nonlinear.
