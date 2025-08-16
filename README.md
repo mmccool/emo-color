@@ -1,5 +1,7 @@
 # Emotion/Color Mapping
-Generate a configurable mapping between emotion and color words.
+Python code to generate mappings between emotion and color words.
+There are two codes here: one based on the standard arousal/valence model and a fixed mapping to colors,
+and one that is more configurable and can learn a model from word2vec embeddings and specified seed mappings.
 
 # Prompt
 Initial code developed by ChatGPT-5 with the following prompt:
