@@ -6,13 +6,13 @@ Initial code developed by ChatGPT-5 with the following prompt:
 
 * Develop a model, expressed in python code, to map emotions to colors.
 
-This gave some initial code that just used a simple valence/arousal model, checked in under `av-mapping.py`.
+This gave some initial code that just used a simple valence/arousal model, checked in under `av_mapping.py`.
 However, this was not configurable enough for what I wanted,
 in particular I wanted particular emotion words to map to particular colors,
 with the other mappings being as consistent as possible.
 
 I have checked that that version of the code for comparison and testing (e.g. to generate seed pairs for testing), but also
-updated the prompt with the following.  The result is checked in under `vec-mapping.py`.
+updated the prompt with the following.  The result is checked in under `vec_mapping.py`.
 
 * I want to do this from first principles. I want to take a database of emotion words, embed them in a high-dimensional vector space (for instance, using word2vec and a 30 to 300-dimensional space), use PCA to find three principal dimensions describing the variability in that vector space, then as additional input I want to provide color mappings for some number of particular emotions, and then build a 3-dimensional regression model that can map other colors consistently.  The mapping should be regularized.  Finally, I want to be able to visualize the mapping in 3D and also have a function that can take a particular colour and give me a set of the closest emotions it maps to, and vice-versa, that can take a particular emotion and give me the set of the closest colors it maps to.  Colors should be expressed not only in RGB/HSL values but also in color word names.
 
