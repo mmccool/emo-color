@@ -1,4 +1,11 @@
-# quickstart_demo.py
+# av_quickstart.py
+
+# Quickstart (uses a pretrained embedding if available)
+# What this example covers:
+# * fit(...), predict_color(...), predict_all(...)
+# * nearest_emotions_for_color(...), nearest_color_names_for_emotion(...)
+# * plot_3d(...)
+
 # Requires: scikit-learn, matplotlib
 # Optional but recommended: gensim, webcolors
 
