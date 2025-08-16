@@ -1,3 +1,4 @@
+# Evaluate fit quality on held-out seeds
 # Given: mapper already fit with some seeds
 from emotion_color_mapper import rgb_to_lab, deltaE2000, parse_color
 import numpy as np
